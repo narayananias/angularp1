@@ -1,0 +1,31 @@
+<mat-toolbar style="background-color:rgb(237, 0, 0);" class="mat-elevation-z5"><mat-toolbar-row>
+    <span style="font-weight: bold;">PERI INSTITUTE OF TECHNOLOGY</span>
+    <span class="example-spacer"></span>
+    <span style="font-size:12px">STUDENT LOGIN</span>
+    <button mat-icon-button><mat-icon class="example-icon" aria-hidden="false" aria-label="Example heart icon">verified_user</mat-icon></button>
+  </mat-toolbar-row></mat-toolbar>
+
+
+
+<mat-sidenav-container>
+  <mat-sidenav mode="side" opened="true">
+    <mat-nav-list style="width: 210px;">
+      <a routerLink='prof' mat-list-item><mat-icon style="margin-right: 5px;">account_circle</mat-icon>PROFILE</a>
+      <a routerLink='att' mat-list-item style="height: 50px;"><mat-icon style="margin-right: 5px;">check_circle_outline</mat-icon>ATTENDANCE</a>
+      <a routerLink='sub' mat-list-item style="height: 50px;"><mat-icon style="margin-right: 5px;">library_books</mat-icon>SUBJECTS</a>
+      <a routerLink='assi' mat-list-item style="height: 50px;"><mat-icon style="margin-right: 5px;">assignment_turned_in</mat-icon>ASSIGNMENTS</a>
+      <a routerLink='test' mat-list-item style="height: 50px;"><mat-icon style="margin-right: 5px;">create</mat-icon>TEST</a>
+      <a routerLink='univex' mat-list-item style="height: 50px;"><mat-icon style="margin-right: 5px;">assignment</mat-icon>UNIVERSITY EXAMS</a>
+      <a routerLink='fedbck' mat-list-item style="height: 50px;"><mat-icon style="margin-right: 5px;">feedback</mat-icon>FEEDBACK</a>
+      <a routerLink='support' mat-list-item style="height: 50px;"><mat-icon style="margin-right: 5px;">call</mat-icon>SUPPORT</a>
+      <a mat-list-item style="height: 50px;"><mat-icon style="margin-right: 5px;">logout</mat-icon>LOGOUT</a>
+</mat-nav-list>
+</mat-sidenav>
+<mat-sidenav-content>
+    <p style="height:88vh">
+<router-outlet></router-outlet>
+    </p>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+

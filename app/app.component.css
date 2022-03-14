@@ -1,0 +1,24 @@
+.example-icon {
+    padding: 0 8px;
+    color: rgb(144, 255, 144);
+    size: 10px;
+  }
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  .mat-drawer-container {
+    background-color: rgb(245, 244, 244);
+    color: rgb(31, 25, 25);
+}
+.mat-elevation-z5{
+  position: relative;
+  z-index: 2;
+}
+.mat-sidenav{
+  background-color: rgb(227, 0, 0);
+}
+.mat-sidenav a:hover{
+  font-weight: bold;
+  border-bottom: 3px solid rgb(245, 241, 241);
+  border-top: 3px solid rgb(245, 241, 241);
+}
